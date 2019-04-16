@@ -1,4 +1,4 @@
-# react-native-amazing-cropper
+# react-native-image-text-cropper
 Image cropper for react native made with Animated API (with rotation possibility) - **for iOS & android**
 
 <img src="https://i.imgur.com/c5lqfLr.png" height="400" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://i.imgur.com/HNHkWQ7.png" height="400" />
@@ -17,7 +17,7 @@ This component depend on `react-native-image-rotate` library. It needs to be ins
 **STEPS TO INSTALL:**
 1. `npm install --save react-native-image-rotate`
 2. `react-native link react-native-image-rotate`
-3. `npm install --save react-native-amazing-cropper`
+3. `npm install --save react-native-image-text-cropper`
 
 #### Properties
 -------------
@@ -40,7 +40,7 @@ This component depend on `react-native-image-rotate` library. It needs to be ins
 import React, { Component } from 'react';
 import { Platform, ImageStore } from 'react-native';
 import { Actions } from 'react-native-router-flux';
-import AmazingCropper from 'react-native-amazing-cropper';;
+import AmazingCropper from 'react-native-image-text-cropper';;
 
 class AmazingCropperPage extends Component {
   onDone = (croppedImageUri) => {
@@ -89,7 +89,7 @@ class AmazingCropperPage extends Component {
 import React, { Component } from 'react';
 import { Platform, ImageStore } from 'react-native';
 import { Actions } from 'react-native-router-flux';
-import AmazingCropper, { DefaultFooter } from 'react-native-amazing-cropper';
+import AmazingCropper, { DefaultFooter } from 'react-native-image-text-cropper';
 
 class AmazingCropperPage extends Component {
   onDone = (croppedImageUri) => {
@@ -208,7 +208,7 @@ Now just pass your footer component to the Cropper like here:
 import React, { Component } from 'react';
 import { Platform, ImageStore } from 'react-native';
 import { Actions } from 'react-native-router-flux';
-import AmazingCropper from 'react-native-amazing-cropper';
+import AmazingCropper from 'react-native-image-text-cropper';
 import CustomCropperFooter from './src/components/CustomCropperFooter.component';
 
 class AmazingCropperPage extends Component {
@@ -252,8 +252,3 @@ class AmazingCropperPage extends Component {
   }
 }
 ```
-
-#### Did you like it? Check out also my mini applications on Google Play:
-Simple Share: https://play.google.com/store/apps/details?id=com.sendfiles </br>
-Card Trick: https://play.google.com/store/apps/details?id=com.card_trick_2 </br>
-Swwwitch: https://play.google.com/store/apps/details?id=com.swwwitch

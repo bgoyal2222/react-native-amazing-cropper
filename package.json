@@ -1,7 +1,7 @@
 {
-  "name": "react-native-amazing-cropper",
-  "version": "0.0.9",
-  "description": "Custom react native cropper with rotation",
+  "name": "react-native-image-text-cropper",
+  "version": "0.0.1",
+  "description": "Custom react native text image cropper with rotation which helps to crop particular text area from the image",
   "main": "index.js",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
@@ -9,11 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ggunti/react-native-amazing-cropper.git"
+    "url": "git+https://github.com/bgoyal2222/react-native-amazing-cropper"
   },
   "author": {
-    "name": "Gotha Guntter",
-    "email": "ggunty96@gmail.com"
+    "name": "Bhavesh Goyal",
+    "email": "bhaveshgoyal999@gmailcom"
   },
   "license": "MIT",
   "dependencies": {
@@ -37,10 +37,11 @@
     "crop",
     "rotate",
     "image",
-    "cropper"
+    "cropper",
+    "text"
   ],
   "bugs": {
-    "url": "https://github.com/ggunti/react-native-amazing-cropper/issues"
+    "url": "https://github.com/bgoyal2222/react-native-amazing-cropper/issues"
   },
-  "homepage": "https://github.com/ggunti/react-native-amazing-cropper"
+  "homepage": "https://github.com/bgoyal2222/react-native-amazing-cropper"
 }
